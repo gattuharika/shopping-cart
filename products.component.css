@@ -1,0 +1,14 @@
+.product-list {
+    display: flex;
+    margin: 2rem;
+  }
+  
+  .product-item {
+    border: 2px solid burlywood;
+    margin: 1rem;
+    padding: 1rem;
+    min-width: 12rem;
+  }
+  img {
+    max-height: 200px;
+  }
