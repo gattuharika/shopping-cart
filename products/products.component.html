@@ -1,0 +1,18 @@
+
+<div class="product-list">
+    <div *ngFor="let Product of List" class="product-item">
+      <b>{{Product.title}}</b>
+      <img [src]="Product.imgUrl" />
+        {{Product.description}}
+      <p>${{Product.price}}</p>
+  
+  
+      <button style="background:blue;color:white" (click)="onBtnClick(Product)" >
+      <!-- <button (click)="onBtnClick"> -->
+    Add to Cart
+  </button>
+  
+    </div>
+  </div>
+  
+  <!-- <user-row *ngFor="let user of user" [user]="user"></user-row> -->
